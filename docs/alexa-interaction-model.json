@@ -1,0 +1,60 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "uni mate",
+      "intents": [
+        { "name": "AMAZON.CancelIntent", "samples": [] },
+        { "name": "AMAZON.HelpIntent", "samples": [] },
+        { "name": "AMAZON.StopIntent", "samples": [] },
+        { "name": "AMAZON.FallbackIntent", "samples": [] },
+        {
+          "name": "ExplainTopicIntent",
+          "slots": [
+            { "name": "topic", "type": "TOPIC" }
+          ],
+          "samples": [
+            "explain {topic}",
+            "teach me {topic}",
+            "what is {topic}"
+          ]
+        },
+        {
+          "name": "QuizIntent",
+          "slots": [
+            { "name": "topic", "type": "TOPIC" }
+          ],
+          "samples": [
+            "give me a quiz on {topic}",
+            "quiz me on {topic}",
+            "test me on {topic}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "TOPIC",
+          "values": [
+            {
+              "name": {
+                "value": "cloud computing",
+                "synonyms": ["cloud"]
+              }
+            },
+            {
+              "name": {
+                "value": "machine learning",
+                "synonyms": ["ML"]
+              }
+            },
+            {
+              "name": {
+                "value": "cyber security",
+                "synonyms": ["cybersecurity"]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

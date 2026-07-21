@@ -1,0 +1,2 @@
+# The foundation prototype uses only Python's standard library.
+# Add a pinned package here only when a later feature genuinely needs it.

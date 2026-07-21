@@ -19,4 +19,3 @@ The initial Alexa interaction model is in `docs/alexa-interaction-model.json`.
 
 This repository is a learning artefact. Understand, test, adapt, and document each
 change in your own words. Cite all external libraries, APIs, datasets, and research.
-# Uni-Mate
